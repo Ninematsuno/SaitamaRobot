@@ -28,4 +28,4 @@ async def awake(event):
 
   BUTTON = [[Button.url("Support", "https://t.me/KazukoSupportChat"), Button.url("Update", "https://t.me/phoenix_empire")]]
 
-  await tbot.send_file(event.chat_id, PHOTO, caption=Kazuko,  buttons=BUTTON)
+  await SaitamaRobot.send_file(event.chat_id, PHOTO, caption=Kazuko,  buttons=BUTTON)
