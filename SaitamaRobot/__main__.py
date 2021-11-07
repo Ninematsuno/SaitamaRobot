@@ -361,7 +361,7 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            Bot.send_photo(Img="https://telegra.ph/file/29dc510d917defa410fd1.jpg", caption="Contact me in PM to get the list of possible commands", 
+            "Contact me in PM to get possible commands.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
