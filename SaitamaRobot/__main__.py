@@ -237,22 +237,6 @@ def start(update: Update, context: CallbackContext):
                                 url="https://t.me/OnePunchUpdates",
                             ),
                         ],
-                        [
-                            InlineKeyboardButton(
-                                text="🧾 Getting Started",
-                                url="https://t.me/OnePunchUpdates/29",
-                            ),
-                            InlineKeyboardButton(
-                                text="🗄 Source code",
-                                url="https://github.com/AnimeKaizoku/SaitamaRobot",
-                            ),
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="☠️ Kaizoku Network",
-                                url="https://t.me/Kaizoku/4",
-                            ),
-                        ],
                     ],
                 ),
             )
