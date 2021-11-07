@@ -44,7 +44,7 @@ from telegram.ext import (
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-
+NOOB_IMG ="https://telegra.ph/file/fbe37248b5a046ede4ccc.jpg"
 def get_readable_time(seconds: int) -> str:
     count = 0
     ping_time = ""
@@ -232,8 +232,8 @@ def start(update: Update, context: CallbackContext):
                 ),
             )
     else:
-        update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+        update.effective_message.reply_photo(
+        NOOB_IMG, caption="I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime,
             ),
             parse_mode=ParseMode.HTML,
