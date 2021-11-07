@@ -14,17 +14,17 @@ PHOTO = "https://telegra.ph/file/c93c5bbc5494c0188a541.jpg "
 
 async def awake(event):
 
-  Kazuko = event.sender.first_name
+  Megumin = event.sender.first_name
 
-  Kazuko = "**♡ I,m Kazuko** \n\n"
+  Megumin = "**♡ I,m Megumin** \n\n"
 
-  Kazuko += "**♡ I'm Working with awesome speed**\n\n"
+  Megumin += "**♡ I'm Working with awesome speed**\n\n"
 
-  Kazuko += "**♡ Kazuko : first version**\n\n"
+  Megumin += "**♡ Megumin : first version**\n\n"
 
-  Kazuko += "**♡ My Creator :** [heyaaman](t.me/heyaaman)\n\n"
+  Megumin += "**♡ My Creator :** [heyaaman](t.me/heyaaman)\n\n"
 
-  Kazuko += "**♡ Telethon Version : 1.23.0**\n\n"
+  Megumin += "**♡ Telethon Version : 1.23.0**\n\n"
 
   BUTTON = [[Button.url("Support", "https://t.me/KazukoSupportChat"), Button.url("Update", "https://t.me/phoenix_empire")]]
 
