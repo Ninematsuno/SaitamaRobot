@@ -234,7 +234,7 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates",
-                                url="https://t.me/OnePunchUpdates",
+                                url="https://t.me/megumin_updates",
                             ),
                         ],
                     ],
